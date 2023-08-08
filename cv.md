@@ -20,6 +20,7 @@ I am a novice front-end developer. Currently studying at _Leipzig University_, a
 
 ## Code example:
 > Solving a task with a big dataset during the Python course:
+
 ```
 import re 
 
