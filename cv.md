@@ -19,6 +19,7 @@ I am a novice front-end developer. Currently studying at _Leipzig University_, a
 * Google services _as well as_ Microsoft Package
 
 ## Code example:
+> Solving a task with a big dataset during the Python course:
 ```
 import re 
 
