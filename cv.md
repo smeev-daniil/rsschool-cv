@@ -1,6 +1,6 @@
 # DANIIL ZMEEV, JUNIOR DEVELOPER
 
-![My profile picture](rsschool-cv/profile.jpg)
+![My profile picture](../profile.jpg)
 
 ### Ways of contacting me:
 * **email**: daniil.smeev@gmail.com
