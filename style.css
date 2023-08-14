@@ -61,7 +61,7 @@ body {
     padding: 0 20px;
     line-height: 50px;
     text-decoration: none;
-    color: maroon;
+    color: #2F2F2F;
     font-style: bold;
     background-color: #CACACA;
 }
@@ -70,7 +70,7 @@ body {
     padding: 0 20px;
     line-height: 50px;
     text-decoration: underline;
-    color: maroon;
+    color: #2F2F2F;
     font-style: bold;
     transition: .3s;
     cursor: pointer;
