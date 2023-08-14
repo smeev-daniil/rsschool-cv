@@ -63,4 +63,16 @@ body {
     text-decoration: none;
     color: maroon;
     font-style: bold;
+    background-color: #CACACA;
+}
+
+.nav-link:hover {
+    padding: 0 20px;
+    line-height: 50px;
+    text-decoration: wavy;
+    color: maroon;
+    font-style: bold;
+    transition: .3s;
+    cursor: pointer;
+    background-color: #FF9943;
 }
