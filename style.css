@@ -55,7 +55,16 @@ body {
     justify-content: center;
     align-items: center;
     list-style: none;
-    background-color: #CACACA
+    background-color: #CACACA;
+}
+
+.nav-list:hover {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #FFC613;
 }
 
 .nav-link {
