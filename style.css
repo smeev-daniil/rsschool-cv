@@ -44,9 +44,16 @@ body {
     justify-content: space-between;
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+}
+
 .container {
     max-width: 1440px;
+    width: 100vw;
     margin: 0 auto;
+    overflow: auto;
 }
 
 .nav-list {
@@ -57,6 +64,7 @@ body {
     list-style: none;
     background-color: #CACACA;
     height: 50px;
+    overflow: auto;
 }
 
 .nav-link {
@@ -77,4 +85,60 @@ body {
     transition: .3s;
     cursor: pointer;
     background-color: #FFC613;
+}
+
+.main-container {
+    max-width: 1440px;
+    width: 100vw;
+    margin: 0 auto;
+    overflow: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.left-column {
+    flex-grow: 3;
+    background-color: #484856;
+    color: #FBFBFB;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.right-column {
+    flex-grow: 8;
+    background-color: white;
+    min-height: 100vh;
+    padding: 10px;
+}
+
+.footer-list {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #CACACA;
+    overflow: auto;
+}
+
+.footer-item {
+    padding: 0 40px;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #2F2F2F;
+}
+
+.github-img {
+    margin: 0 auto;
+    height: 20px;
+    vertical-align: text-top;
+}
+
+.rsschool-img {
+    margin: 0 auto;
+    height: 30px;
+    vertical-align: text-top;
 }
