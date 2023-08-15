@@ -59,7 +59,7 @@ main {
 .nav-list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     list-style: none;
     background-color: #CACACA;
@@ -97,18 +97,39 @@ main {
 }
 
 .left-column {
-    flex-grow: 3;
+    width: 27%;
     background-color: #484856;
     color: #FBFBFB;
+    min-height: 100vh;
+    padding: 0px;
+}
+
+.right-column {
+    width: 73%;
+    background-color: white;
     min-height: 100vh;
     padding: 10px;
 }
 
-.right-column {
-    flex-grow: 8;
-    background-color: white;
-    min-height: 100vh;
+.profile-photo {
+    position: relative;
+    top: 0px;
+    padding: 0px;
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+}
+
+.section {
     padding: 10px;
+}
+
+.main-title {
+    font-size: 80px;
+}
+
+.section-title {
+
 }
 
 .footer-list {
