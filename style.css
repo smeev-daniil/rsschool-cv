@@ -7,41 +7,53 @@ html {
 }
 
 @font-face {
-    font-family: "PTSans";
+    font-family: "PTSans-Regular";
     src: url(./assets/fonts/PTSans-Regular.ttf);
     font-weight: normal;
     font-style: italic;
 }
 
 @font-face {
-    font-family: "PTSans";
+    font-family: "PTSans-Italic";
     src:url(./assets/fonts/PTSans-Italic.ttf);
     font-style:italic;  
     font-weight: normal;
 }
 
 @font-face {
-    font-family: "PTSans";
+    font-family: "PTSans-Bold";
     src:url(./assets/fonts/PTSans-Bold.ttf);
     font-style:normal;  
     font-weight: bold;
 }
 
 @font-face {
-    font-family: "PTSans";
+    font-family: "PTSans-BoldItalic";
     src:url(./assets/fonts/PTSans-BoldItalic.ttf);
     font-style:italic;  
     font-weight: bold;
 }
 
+@media (max-width: 768px) {
+    .left-column {
+        width: 100%;
+    }
+    .right-column {
+        width: 100%;
+    }
+}
+
 body {
-    font-family: "PTSans";
+    font-family: "PTSans-Regular", sans-serif;
     min-height: 100vh;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
 }
 
 main {
@@ -72,7 +84,7 @@ main {
     line-height: 50px;
     text-decoration: none;
     color: #2F2F2F;
-    font-style: bold;
+    font-family: "PTSans-Regular";
     background-color: #CACACA;
 }
 
@@ -94,6 +106,7 @@ main {
     overflow: auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .left-column {
@@ -126,10 +139,22 @@ main {
 
 .main-title {
     font-size: 80px;
+    font-weight: bold;
 }
 
-.section-title {
+.left-section-title {
+    font-size: 30px;
+    font-family: "PTSans-Regular", sans-serif;
+    font-weight: bold;
+    color: #FBFBFB;
+    
+}
 
+.right-section-title {
+    font-size: 30px;
+    font-family: "PTSans-Regular", sans-serif;
+    font-weight: bold;
+    color: #2F2F2F;
 }
 
 .footer-list {
