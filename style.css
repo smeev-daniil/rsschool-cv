@@ -8,6 +8,7 @@ html {
 
 :root {
     --header-footer: #E2E2E2;
+    --left-column-text: #FBFBFB;
 }
 
 @font-face {
@@ -133,7 +134,7 @@ nav {
 .left-column {
     width: 27%;
     background-color: #484856;
-    color: #FBFBFB;
+    color: var(--left-column-text);
     min-height: 100vh;
     padding: 0px;
 }
@@ -180,7 +181,7 @@ nav {
     font-size: 30px;
     font-family: "PTSans-Regular", sans-serif;
     font-weight: bold;
-    color: #FBFBFB;
+    color: var(--left-column-text);
     padding: 0 10%;
     overflow: auto;
 }
@@ -214,6 +215,15 @@ nav {
 .education-list {
     list-style: circle;
     padding: 10px 40px 20px 40px;
+}
+
+.languages-list {
+    list-style: circle;
+    padding: 10px 40px 20px 40px;
+}
+
+.ielts-link {
+    color: var(--left-column-text);
 }
 
 .footer-list {
