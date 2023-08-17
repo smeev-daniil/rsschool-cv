@@ -75,6 +75,10 @@ nav {
     margin: 0;
 }
 
+.italic {
+    font-family: "PTSans-Italic";
+}
+
 .container {
     max-width: 1440px;
     width: 100vw;
@@ -153,6 +157,7 @@ nav {
 .left-section {
     padding: 0px;
     background-color: #515161;
+    overflow: auto;
 }
 
 .name-section {
@@ -204,6 +209,11 @@ nav {
 .contacts-list {
     list-style: none;
     padding: 10px 10px 20px 20px;
+}
+
+.education-list {
+    list-style: circle;
+    padding: 10px 40px 20px 40px;
 }
 
 .footer-list {
