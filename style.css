@@ -61,6 +61,10 @@ main {
     flex-direction: row;
 }
 
+p {
+    margin: 10px 30px;
+}
+
 .container {
     max-width: 1440px;
     width: 100vw;
@@ -121,7 +125,7 @@ main {
     width: 73%;
     background-color: white;
     min-height: 100vh;
-    padding: 10px;
+    padding: 0px;
 }
 
 .profile-photo {
@@ -133,13 +137,25 @@ main {
     height: auto;
 }
 
-.section {
-    padding: 10px;
+.left-section {
+    padding: 0px;
+    background-color: #515161;
+}
+
+.name-section {
+    padding: 0;
+    background-color: white;
+}
+
+.right-section {
+    background-color: #F3F3F9;
+    padding: 0;
 }
 
 .main-title {
     font-size: 80px;
     font-weight: bold;
+    margin: 10px 30px;
 }
 
 .left-section-title {
@@ -147,7 +163,13 @@ main {
     font-family: "PTSans-Regular", sans-serif;
     font-weight: bold;
     color: #FBFBFB;
-    
+    padding: 0 10%;
+}
+
+.left-title-background {
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(to right, #FFC613 5%, #59596A 5%);
 }
 
 .right-section-title {
@@ -155,6 +177,13 @@ main {
     font-family: "PTSans-Regular", sans-serif;
     font-weight: bold;
     color: #2F2F2F;
+    padding: 0 3.7%;
+}
+
+.right-title-background {
+    display: block;
+    width: 100%;
+    background-image: linear-gradient(to right, #FFC613 1.85%, #E3E3EE 1.85%);
 }
 
 .footer-list {
