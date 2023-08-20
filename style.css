@@ -67,7 +67,7 @@ main {
 }
 
 p {
-    margin: 10px 30px;
+    margin: 30px 30px;
     overflow: auto;
 }
 
@@ -224,6 +224,20 @@ nav {
 
 .ielts-link {
     color: var(--left-column-text);
+}
+
+.skills-list {
+    list-style: circle;
+    padding: 10px 40px 20px 50px;
+}
+
+.skills-link {
+    color: black;
+}
+
+.courses-list {
+    list-style: circle;
+    padding: 10px 40px 20px 50px;
 }
 
 .footer-list {
