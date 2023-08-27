@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daniil Zmeev's CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="./assets/img/icon.png">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main-container">
+            <div class="left-column">
+                <img class="profile-photo" src="./assets/img/profile_photo.jpg" alt="Profile photo">
+                <section class="left-section" id="contacts">
+                    <div class="left-title-background">
+                        <h2 class="left-section-title">Contacts</h2>
+                    </div>
+                    <ul class="contacts-list">
+                        <li><img src="./assets/img/email.png" class="icon-img" alt="email image"> daniil.smeev@gmail.com</li>
+                        <li><img src="./assets/img/phone.png" class="icon-img" alt="phone image"> +905343791187</li>
+                        <li><img src="./assets/img/telegram.png" class="icon-img" alt="telegram logo"> @smeev_daniil</li>
+                        <li><img src="./assets/img/github.png" class="icon-img" alt="github logo"> smeev-daniil</li>
+                    </ul>
+                </section>
+                <section class="left-section" id="education">
+                    <div class="left-title-background">
+                        <h2 class="left-section-title">Education</h2>
+                    </div>
+                    <ul class="education-list">
+                        <li><b>Lomonosov Moscow State University</b> (Moscow, Russia), <span class="italic">Sept 2019 - July 2022</span></li>
+                        <li><b>Universität Leipzig</b> (Leipzig, Germany), <span class="italic">October 2023 - July 2024 (Pending)</span></li>
+                    </ul>
+                </section>
+                <section class="left-section" id="languages">
+                    <div class="left-title-background">
+                        <h2 class="left-section-title">Languages</h2>
+                    </div>
+                    <ul class="languages-list">
+                        <li>Russian - <span class="italic">mother language</span></li>
+                        <li>English - <span class="italic">Advanced (<a href="https://drive.google.com/file/d/1NeW5EYrN6gE38wmQcBvuaGTFOtCOh_xd/view?usp=sharing" class="ielts-link" target="_blank">see my IELTS Academic certificate</a>)</span></li>
+                        <li>French - <span class="italic">Intermediate</span></li>
+                        <li>Turkish - <span class="italic">Elementary</span></li>
+                        <li>German - <span class="italic">Elementary</span></li>
+                    </ul>
+                </section>
+            </div>
+            <div class="right-column">
+                <section class="name-section" id="profile">
+                    <h1 class="main-title">Daniil<br>Zmeev</h1>
+                    <p>Novice Front-end developer</p>
+                </section>
+                <section class="right-section" id="summary">
+                    <div class="right-title-background">
+                        <h2 class="right-section-title">About me</h2>
+                    </div>
+                    <p>I am a novice front-end developer. 
+                    Currently studying at <span class="italic">Leipzig University,</span> 
+                    at the faculty of physics. Spheres of interest: 
+                    <span class="italic">radiation medicine, application of the Artificial 
+                    Intelligence in radiation therapy, Data Science, 
+                    front-end development.</span></p>
+                </section>
+                <section class="right-section" id="skills">
+                    <div class="right-title-background">
+                        <h2 class="right-section-title">Hard skills</h2>
+                    </div>
+                    <ul class="skills-list">
+                        <li>Git, GitHub</li>
+                        <li>Visual Studio Code</li>
+                        <li>Python, Pandas library</li>
+                        <li>HTML, CSS, JavaScript</li>
+                        <li>Google services as well as Microsoft Package</li>
+                    </ul>
+                </section>
+                <section class="right-section" id="projects">
+                    <div class="right-title-background">
+                        <h2 class="right-section-title">Projects</h2>
+                    </div>
+                    <ul class="skills-list">
+                        <li>RS-School Front-end development course. <a href="https://github.com/smeev-daniil/rsschool-cv" class="cv-link">CV project</a></li>
+                    </ul>
+                </section>
+                <section class="right-section" id="courses">
+                    <div class="right-title-background">
+                        <h2 class="right-section-title">Courses</h2>
+                    </div>
+                    <ul class="courses-list">
+                        <li><b>"Python for processing big sources of data"</b> course (Lomonosov Moscow State University, faculty of Cybernetics), <span class="italic">February 2022 - June 2022</span></li>
+                        <li><b>"Front-end development"</b> course (RS SCHOOL), <span class="italic"> July 2023 - ...</span></li>
+                    </ul>
+                </section>
+                <section class="right-section" id="code">
+                    <div class="right-title-background">
+                        <h2 class="right-section-title">Code example</h2>
+                    </div>
+                    <p>Solving a task with a big dataset during the Python course:</p>
+                    <pre><code>
+                        import re
+                        listik = [];
+                        with open('input.txt') as txt_file:
+                            for line in txt_file:
+                                listik.append(re.findall('\+\d{8,15}', line))
+                        spisok = []
+                        for element in listik:
+                            for i in range(len(element)):
+                                spisok.append(element[i])
+                        spisok.sort()
+
+                        with open('output.txt', 'w') as txt_file:
+                            for i in range(len(spisok)-1):
+                                print(spisok[i], end = ',', file = txt_file)
+                            print(spisok[len(spisok)-1], file = txt_file)
+                    </code></pre>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer">
+                <ul class="footer-list">
+                    <li class="footer-item"><a class="footer-link" href="https://github.com/smeev-daniil"><img class="icon-img" src="./assets/img/github.png" alt="GitHub icon"> My GitHub</a></li>
+                    <li class="footer-item"><span class="italic">Daniil Zmeev's CV © 2023</span></li>
+                    <li class="footer-item"><a class="footer-link" href="https://rs.school"><img class="rsschool-img" src="./assets/img/rsschool.png" alt="RS School logo"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
