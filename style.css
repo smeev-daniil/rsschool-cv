@@ -80,10 +80,17 @@ nav {
     font-family: "PTSans-Italic";
 }
 
+main {
+    display: flex;
+    flex-direction: row;
+}
+
 .container {
     max-width: 1440px;
     width: 100vw;
+    width: 100vw;
     margin: 0 auto;
+    overflow: auto;
     overflow: auto;
 }
 
