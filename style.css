@@ -76,6 +76,14 @@ nav {
     margin: 0;
 }
 
+code {
+    overflow: auto;
+}
+
+pre {
+    overflow: auto;
+}
+
 .italic {
     font-family: "PTSans-Italic";
 }

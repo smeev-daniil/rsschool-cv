@@ -112,21 +112,21 @@
                     </div>
                     <p>Solving a task with a big dataset during the Python course:</p>
                     <pre><code>
-                        import re
-                        listik = [];
-                        with open('input.txt') as txt_file:
-                            for line in txt_file:
-                                listik.append(re.findall('\+\d{8,15}', line))
-                        spisok = []
-                        for element in listik:
-                            for i in range(len(element)):
-                                spisok.append(element[i])
-                        spisok.sort()
+    import re
+    listik = [];
+    with open('input.txt') as txt_file:
+        for line in txt_file:
+            listik.append(re.findall('\+\d{8,15}', line))
+    spisok = []
+    for element in listik:
+        for i in range(len(element)):
+            spisok.append(element[i])
+    spisok.sort()
 
-                        with open('output.txt', 'w') as txt_file:
-                            for i in range(len(spisok)-1):
-                                print(spisok[i], end = ',', file = txt_file)
-                            print(spisok[len(spisok)-1], file = txt_file)
+    with open('output.txt', 'w') as txt_file:
+        for i in range(len(spisok)-1):
+            print(spisok[i], end = ',', file = txt_file)
+        print(spisok[len(spisok)-1], file = txt_file)
                     </code></pre>
                 </section>
             </div>
